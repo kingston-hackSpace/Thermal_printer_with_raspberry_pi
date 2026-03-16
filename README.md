@@ -11,7 +11,7 @@ set up a virtual environment and start it up
 
 install Adafruit-Blinka, this library enables some circuit-python commands to work with the pi.
 
-```pip3 intstall Adafruit-Blinka```
+```pip3 install Adafruit-Blinka```
 
 install pyserial, this library enables connection between the pi and the UART serial port
 

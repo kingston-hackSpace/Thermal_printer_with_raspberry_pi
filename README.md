@@ -23,7 +23,7 @@ install the adafruit thermal printer library
 
 <h2>STEP 2: hardware setup</h2>
 
-set up the printer with the RX and TX pins reversed (RX to TX) (TX to RX) follow the fritzing diagram above.
+set up the printer with the RX and TX pins reversed (RX to TX) (TX to RX) follow the fritzing diagram above. We use the UART serial pins on the raspberry pi and connect tot he thermal printer over a serial connection.
 
 <h2>STEP 3: running the script</h2>
 

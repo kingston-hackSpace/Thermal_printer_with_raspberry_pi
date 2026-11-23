@@ -33,6 +33,13 @@ You will need:
 
 set up the printer with the RX and TX pins reversed (RX to TX) (TX to RX) follow the fritzing diagram above. We use the UART serial pins on the raspberry pi and connect to the thermal printer over a serial connection.
 
+| Raspberry pi | Thermal printer |
+| --- | --- |
+| GPIO 6 | Ground |
+| GPIO 8 | TX (yellow) |
+| GPIO 10 | RX (green) |
+
+
 <h2>STEP 3: running the script</h2>
 
 download and the attached script to the project folder then execute it

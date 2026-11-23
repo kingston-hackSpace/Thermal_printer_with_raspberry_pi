@@ -3,7 +3,7 @@
 <h2>STEP 1: software installation</h2>
 power on the raspberry pi and open the terminal 
 
-set up a virtual environment and start it up
+set up a virtual environment and start it up. You kind find out more on virtual enviroments [here](https://github.com/kingston-hackSpace/Virtual-Environments__RaspberryPi).
 
 ```python3 -m venv PROJECT_NAME```
 
@@ -23,6 +23,8 @@ install the adafruit thermal printer library
 
 <h2>STEP 2: hardware setup</h2>
 
+<img src = "/thermal_printer_rpi_bb.png" width = "800">
+
 set up the printer with the RX and TX pins reversed (RX to TX) (TX to RX) follow the fritzing diagram above. We use the UART serial pins on the raspberry pi and connect tot he thermal printer over a serial connection.
 
 <h2>STEP 3: running the script</h2>
@@ -31,6 +33,4 @@ download and the attached script to the project folder then execute it
 
 ```python3 thermal_test.py```
 
-the full list of commands can be found from this example script on the adafruit site.
-
-<link>https://learn.adafruit.com/mini-thermal-receipt-printer/circuitpython</link>
+the full list of commands can be found from this example script on the [adafruit site](https://learn.adafruit.com/mini-thermal-receipt-printer/circuitpython).

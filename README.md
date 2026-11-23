@@ -25,6 +25,12 @@ install the adafruit thermal printer library
 
 <img src = "/thermal_printer_rpi_bb.png" width = "800">
 
+You will need:
+
+- Thermal printer
+- 5V Power supply with wire connectors
+- Raspberry pi board 
+
 set up the printer with the RX and TX pins reversed (RX to TX) (TX to RX) follow the fritzing diagram above. We use the UART serial pins on the raspberry pi and connect tot he thermal printer over a serial connection.
 
 <h2>STEP 3: running the script</h2>

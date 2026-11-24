@@ -19,7 +19,7 @@ install pyserial, this library enables connection between the pi and the UART se
 
 install the adafruit thermal printer library
 
-```install adafruit-circuitpython-thermal-printer```
+```pip3 install adafruit-circuitpython-thermal-printer```
 
 <h2>STEP 2: hardware setup</h2>
 
